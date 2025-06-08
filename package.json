@@ -1,0 +1,39 @@
+{
+  "name": "@991glasses/ewelink-mcp-server",
+  "version": "0.0.2-dev.1",
+  "description": "Connect eWeLink smart devices to LLM via the MCP protocol",
+  "license": "MIT",
+  "author": "991glasses",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/991glasses/ewelink-mcp-server.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "ewelink"
+  ],
+  "scripts": {
+    "login": "./src/login.mjs",
+    "test": "vitest"
+  },
+  "bin": {
+    "ewelink-mcp-server": "./src/main.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^5.1.0",
+    "got": "^14.4.7",
+    "inquirer": "^12.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.0",
+    "vitest": "^3.1.3"
+  }
+}
