@@ -1,6 +1,6 @@
 {
   "name": "@991glasses/ewelink-mcp-server",
-  "version": "0.0.2-dev.1",
+  "version": "0.0.2",
   "description": "Connect eWeLink smart devices to LLM via the MCP protocol",
   "license": "MIT",
   "author": "991glasses",
